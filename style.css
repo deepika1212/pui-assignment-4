@@ -176,7 +176,7 @@ div.desc {
     font-size: 18px;
 }
 
-#wishlist {
+#saveToWishList {
     font-size: 15px;
     background: #404040;
     color: #ffffff;
@@ -258,6 +258,7 @@ ol li:last-child {
 
 #clear-cart {
     margin:0 auto;
+    margin-bottom: 40px;
     position: relative;
     margin-left: 45%;
     font-size: 15px;
