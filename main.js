@@ -102,6 +102,9 @@
 					}
 						
 				}
+				if (cart === null){
+					cart = [];
+				}
 
 				//push new item to cart//
 				var item  = new Item();
