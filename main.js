@@ -8,6 +8,9 @@ $(document).ready(function(){
 	//JQUERY//
 	$("#addtocart").click(function(){
 		alert ("1 item added to cart");
+		var name = $(this). attr("data-name2");
+	    var size = $(this). attr("data-size2");
+	    var flavors = $(this). attr("data-flavors2");
 		addItemToCart();
 		$ ("#cart-length").html("You have " + cart.length + " items in your cart.");
 		displayCart();
@@ -61,7 +64,6 @@ $(document).ready(function(){
 	          
 	      }
 	  });
-
 
 	//**********************************//
 	//Shopping CART Functions//
