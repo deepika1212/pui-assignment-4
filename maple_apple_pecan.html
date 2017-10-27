@@ -1,131 +1,116 @@
-  <!DOCTYPE html>
-  <html>
-  <head>
-      <title>Maple Apple Pecan</title>
-      <!-- styles -->
-      <link rel="stylesheet" type="text/css" href="style.css">
-      <!-- fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
-      <!-- javascript -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="main.js" type="text/javascript"></script>
-      
-      <!-- Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Maple Apple Pecan</title>
+        <!-- styles -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+        <!-- javascript -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="main.js" type="text/javascript"></script>
+        
+        <!-- Icons -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
 
-  <body>
-     <div class="header">
-          <h1>Bun Bun Bake Shop <a href="cart.html" class = "fa fa-shopping-cart">My Cart</a></h1>
-           
-      </div>
+    <body>
+       <div class="header">
+            <h1>Bun Bun Bake Shop <a href="cart.html" class = "fa fa-shopping-cart">My Cart</a></h1>
+             
+        </div>
 
-  <div class = "topnav" id = "myTopnav">
-      <a href="index.html" class = "active-link">Home</a> 
-      <a href="products.html" class = "active">Products</a>
-      <a href="aboutus.html">About Us</a> 
-      <a href="contactus.html">Contact Us</a>
-  </div>
-  <div class = "title"> Maple Apple Pecan</div> 
+    <div class = "topnav" id = "myTopnav">
+        <a href="index.html" class = "active-link">Home</a> 
+        <a href="products.html" class = "active">Products</a>
+        <a href="aboutus.html">About Us</a> 
+        <a href="contactus.html">Contact Us</a>
+    </div>
+    <div class = "title"> Maple Apple Pecan</div> 
 
-  <div class = "productDetail">
-      <img src = "images/maple apple pecan.jpg" width = "486" height = "365"/> 
-      <!--<div id = "price"> 2.00$ </div> -->
-      <div class = "table"> 
-      <table>
+    <div class = "productDetail">
+        <img src = "images/maple apple pecan.jpg" width = "486" height = "365"/> 
+        <!--<div id = "price"> 2.00$ </div> -->
+        <div class = "table"> 
+        <table>
+          <tr>
+            <th> Price: </th>
+            <td id = "price"> 2.00$ / roll </td>
+          </tr>
         <tr>
-          <th> Price: </th>
-          <td id = "price"> 2.00$ / roll </td>
-        </tr>
-      <tr>
-      <th> Quantity: </th>
-      <td>
-  <select id="quantity">
-    <option value="1">1</option>
-    <option value="2">2</option>
-    <option value="3">3</option>
-    <option value="4">4</option>
-    <option value="5">5</option>
-  </select>
-</td>
-<tr>
-   <th > Select Pack: </th>
-   <td>
-  <select id="select-pack" >
-    <option id = "1-roll" value="1 roll" selected = "selected">1 roll</option>
-    <option value="6 rolls pack">6 rolls pack</option>
-    <option value="12 rolls pack">12 rolls pack</option>
-  </select>
-</td>
-</tr>
-  <tr>
-   <th > Flavors: </th>
-   <td>
-  <select id="flavors" multiple size="3" disabled="true" >
-    <option disabled value="Choose up to 2 flavors" selected>Choose up to 2 flavors</option>  
-    <option value="Birthday Cake">Birthday Cake</option>
-    <option value="Strawberry Rhubarb">Strawberry Rhubarb</option>
-    <option value="Pumpkin Spice">Pumpkin Spice</option>
-  </select>
-</td>
-</tr>
-<tr>
-  <th>
-    <button id= "saveToWishList">Save to Wishlist</button>
-  
-</th>
-<td>
-  <button id= "addtocart" data-name2 = '"+ cart[i].name+"' data-size2 = '"+ cart[i].size+"' data-flavors2 = '"+ cart[i].flavors+"'>Add to Cart</button>
-  
-</td>
-<tr>
-  <th>
-  <td id = "cart-length">
+        <th> Quantity: </th>
+        <td>
+    <select id="quantity">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
   </td>
-</th>
-  
-</tr>
-</table>
-</div>
+  <tr>
+     <th > Select Pack: </th>
+     <td>
+    <select id="select-pack" >
+      <option id = "1-roll" value="1 roll" selected = "selected">1 roll</option>
+      <option value="6 rolls pack">6 rolls pack</option>
+      <option value="12 rolls pack">12 rolls pack</option>
+    </select>
+  </td>
+  </tr>
+    <tr>
+     <th > Flavors: </th>
+     <td>
+    <select id="flavors" multiple size="3" disabled="true" >
+      <option disabled value="Choose up to 2 flavors" selected>Choose up to 2 flavors</option>  
+      <option value="Birthday Cake">Birthday Cake</option>
+      <option value="Strawberry Rhubarb">Strawberry Rhubarb</option>
+      <option value="Pumpkin Spice">Pumpkin Spice</option>
+    </select>
+  </td>
+  </tr>
+  <tr>
+    <th>
+      <button id= "saveToWishList">Save to Wishlist</button>
+    
+  </th>
+  <td>
+    <button id= "addtocart" data-name2 = '"+ cart[i].name+"' data-size2 = '"+ cart[i].size+"' data-flavors2 = '"+ cart[i].flavors+"'>Add to Cart</button>
+    
+  </td>
+  <tr>
+    <th>
+    <td id = "cart-length">
+    </td>
+  </th>
+    
+  </tr>
+  </table>
+  </div>
 
-
-
-  <!--
-      <div>
-          Because Apple Crisp is pretty much the best fall dessert ever, and why not? It turns out apples and streusel are awesome on anything.
-          We love cinnamon buns (I mean, tell me you’re not surprised), but people actually rarely make them. First, there’s the whole issue with having a pan of cinnamon buns. Mostly because you know they’re not going to be sitting there for very long.
-
-          Second, they’re not anything new or exciting, and sometimes you may feel like you can’t give you boring old recipes you probably already have. That you’d rather New and Exciting. Try our Maple Apple Pecan delicacy and get surprised.
-      
+       <div id= "container2">
+        <div class="gallery2">
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a target="_blank" href=".html">
+          <img src="images/old fashioned buttermilk.jpg" alt="Old Fashioned Buttermilk" width="300" height="200">
+        </a>
+        
+        <div class="desc">Old Fashioned Buttermilk</div>
       </div>
 
-  </div>-->
-     <div id= "container2">
       <div class="gallery2">
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a target="_blank" href=".html">
-        <img src="images/old fashioned buttermilk.jpg" alt="Old Fashioned Buttermilk" width="300" height="200">
-      </a>
-      
-      <div class="desc">Old Fashioned Buttermilk</div>
-    </div>
-
-    <div class="gallery2">
-      <a target="_blank" href=".html">
-        <img src="images/strawberry rhubarb.jpg" alt="Strawberyy Rhubarb" width="300" height="200">
-      </a>
-      <div class="desc">Strawberry Rhubarb</div>
-    </div>
+        <a target="_blank" href=".html">
+          <img src="images/strawberry rhubarb.jpg" alt="Strawberyy Rhubarb" width="300" height="200">
+        </a>
+        <div class="desc">Strawberry Rhubarb</div>
+      </div>
 
 
-    <div class="gallery2">
+      <div class="gallery2">
 
-      <a target="_blank" href=".html">
-        <img src="images/birthday cake.jpg" alt="Birthday Cake" width="300" height="200">
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </a>
-    </div>
-
-
-
-  </body>
+        <a target="_blank" href=".html">
+          <img src="images/birthday cake.jpg" alt="Birthday Cake" width="300" height="200">
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </a>
+      </div>
+    </body>

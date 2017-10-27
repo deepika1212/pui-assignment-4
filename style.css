@@ -1,318 +1,318 @@
-/*********** BODY ************/
+    /*********** BODY ************/
 
-body{font-family: 'Helvetica', sans-serif;
-margin:0;
-color: #959595;}
-
-/*Style the header*/
-.header{
-    background-color: #ffaacc;
-}
-.header h1 {
-    text-align: center;
-    padding: 20px;
-    color: white;
-    font-family: 'Helvetica', sans-serif;
-    font-weight: normal;
+    body{font-family: 'Helvetica', sans-serif;
     margin:0;
-}
-.header a{
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: normal;
-    text-align: center;
-    float: right;
-    padding: 20px;
-}
+    color: #959595;}
 
-/*********** NAV ************/
-/* Style the links inside the navigation bar */
-.topnav{
-    text-align: center;
-    margin-top: 40px;
-}
-.topnav a {
-    color: #959595;
-    text-align: center;
-    padding: 20px 25px;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: lighter; 
-}
+    /*Style the header*/
+    .header{
+        background-color: #ffaacc;
+    }
+    .header h1 {
+        text-align: center;
+        padding: 20px;
+        color: white;
+        font-family: 'Helvetica', sans-serif;
+        font-weight: normal;
+        margin:0;
+    }
+    .header a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: normal;
+        text-align: center;
+        float: right;
+        padding: 20px;
+    }
 
-/* Change the color of links on hover */
-.topnav a:hover {
-    color: #ffaacc;
-}
+    /*********** NAV ************/
+    /* Style the links inside the navigation bar */
+    .topnav{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .topnav a {
+        color: #959595;
+        text-align: center;
+        padding: 20px 25px;
+        text-decoration: none;
+        font-size: 17px;
+        font-weight: lighter; 
+    }
 
-/* Add a color to the active/current link */
-.topnav a.active {
-    color: #ffaacc;
-}
+    /* Change the color of links on hover */
+    .topnav a:hover {
+        color: #ffaacc;
+    }
 
-.homecontent{
-    margin-top: 60px;
-    width: 90%;
-    font-weight: lighter;
+    /* Add a color to the active/current link */
+    .topnav a.active {
+        color: #ffaacc;
+    }
 
-}
-/*********** HOMEPAGE ************/
+    .homecontent{
+        margin-top: 60px;
+        width: 90%;
+        font-weight: lighter;
 
-/*Style the home-image*/
-.homecontent img{
-    float: left;
-    padding: 0px 0px 20px 100px;
-}
+    }
+    /*********** HOMEPAGE ************/
 
-/*Style the content floating to the right of the home-image*/
+    /*Style the home-image*/
+    .homecontent img{
+        float: left;
+        padding: 0px 0px 20px 100px;
+    }
 
-.homecontent h2 {
-    font-size: 30px;
-    color: #A7C16D;
-    float: left;
-    margin-top: 0px;
-    border: 2px solid #A7C16D;
-    border-radius: 3px;
-    padding: 10px;
-    font-weight: lighter;
-}
+    /*Style the content floating to the right of the home-image*/
 
-.homecontent table { 
-    border-spacing: 80px 40px;
-    border-collapse: separate;
-    font-size: 20px;
-    float: left;
-    background: #F3F3F3;
-    border-radius: 3px;
-}
+    .homecontent h2 {
+        font-size: 30px;
+        color: #A7C16D;
+        float: left;
+        margin-top: 0px;
+        border: 2px solid #A7C16D;
+        border-radius: 3px;
+        padding: 10px;
+        font-weight: lighter;
+    }
 
-/*Style the find us section on homepage*/
+    .homecontent table { 
+        border-spacing: 80px 40px;
+        border-collapse: separate;
+        font-size: 20px;
+        float: left;
+        background: #F3F3F3;
+        border-radius: 3px;
+    }
 
-.findus {
-    background-image: url("images/findus.jpg");
-    width: 100%;
-    height: 444px;
-    margin-top: 80px;
-}
+    /*Style the find us section on homepage*/
 
-/*********** PRODUCTS ************/
+    .findus {
+        background-image: url("images/findus.jpg");
+        width: 100%;
+        height: 444px;
+        margin-top: 80px;
+    }
 
-/*style the prodcut title*/
-.title{
-    text-align: center;
-    color:#959595;
-    font-size: 25px;
-    font-weight: lighter;
-    margin-top: 50px;
-    text-decoration: underline;
-    text-decoration-color: #ffaacc;
-}
+    /*********** PRODUCTS ************/
 
-/* style the image grid */
-#container {
-    margin: 0 auto;
-    width: 80%;
-    margin-top: 20px;   
-}
+    /*style the prodcut title*/
+    .title{
+        text-align: center;
+        color:#959595;
+        font-size: 25px;
+        font-weight: lighter;
+        margin-top: 50px;
+        text-decoration: underline;
+        text-decoration-color: #ffaacc;
+    }
 
-.gallery {
-    margin: 30px;
-    float: left;
-    text-align: center;
-    display: inline-block;
-}
+    /* style the image grid */
+    #container {
+        margin: 0 auto;
+        width: 80%;
+        margin-top: 20px;   
+    }
 
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-/*********** PRODUCT DETAIL PAGE ************/
-/* style the conatiner for product detail page */
+    .gallery {
+        margin: 30px;
+        float: left;
+        text-align: center;
+        display: inline-block;
+    }
 
-#container2{
-    margin: 0 auto;
-    width: 100%; 
-    position: relative; 
-    display: inline-block; 
-}
-.gallery2 {
-    display: inline-block;
-    margin-top: 40px;
-}
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+    /*********** PRODUCT DETAIL PAGE ************/
+    /* style the conatiner for product detail page */
 
-.gallery2 img{
-    margin-bottom: 20px;
-}
+    #container2{
+        margin: 0 auto;
+        width: 100%; 
+        position: relative; 
+        display: inline-block; 
+    }
+    .gallery2 {
+        display: inline-block;
+        margin-top: 40px;
+    }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: grey;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
+    .gallery2 img{
+        margin-bottom: 20px;
+    }
+
+    /* Next & previous buttons */
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      margin-top: -22px;
+      padding: 16px;
+      color: grey;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+    }
 
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
 
-.productDetail {
-    margin: 40px;
-    font-weight: lighter;
-}
+    .productDetail {
+        margin: 40px;
+        font-weight: lighter;
+    }
 
-.productDetail img {
-    float: left;
-    padding-right: 20px;
-    padding-left: 60px;
-    /***margin: 80px;**/
-}
+    .productDetail img {
+        float: left;
+        padding-right: 20px;
+        padding-left: 60px;
+        /***margin: 80px;**/
+    }
 
-.productDetail select{
+    .productDetail select{
+        font-size: 15px;
+        padding: 5px;
+    }
+    .productDetail button {
+        float: left;
+    }
+
+
+    .table table { 
+        border-spacing: 20px;
+        border-collapse: separate;
+        font-size: 20px;
+        float: left;
+    }
+
+    .table th {
+        text-align: right;
+        font-weight: normal;
+        font-size: 18px;
+        color: grey;
+    }
+
+    .table td {
+        text-align: left;
+        font-size: 18px;
+    }
+
+    #saveToWishList {
+        font-size: 15px;
+        background: #404040;
+        color: #ffffff;
+        border: none;
+        padding: 10px;
+    }
+
+    #addtocart {
+        font-size: 15px;
+        background: #ffaacc;
+        color: #ffffff;
+        border: none;
+        padding: 10px;
+    }
+
+    #similar {
+        font-size: 20px;
+        font-weight: normal;
+        display: inline-block;
+    }
+
+
+    /*********** ABOUT US ************/
+
+    .about {
+        margin-top: 60px;
+        margin-left: 60px;
+        font-weight: lighter;
+    }
+
+    .about img{
+        float: left;
+        padding-right: 20px;
+    }
+
+    .about p {
+        width: 1000px;
+        text-align: justify;
+    }
+
+
+    /*********** CONTACT US ************/
+
+    .contact{
+
+        color: #767474;
+        text-align: center;
+        margin-left: 30%;
+    }
+    .contact div{
+        padding-top: 100px;
+        margin-top: 40px;
+        font-weight: normal;
+        font-size: 30px;
+        text-align: center;
+        width: 50%;
+    }
+    .contact p{
+        margin-top: 20px;
+        font-weight: lighter;
+        font-size: 20px; 
+        line-height: 30PX; 
+        width: 50%;  
+    }
+    /*********** CART ************/
+    ol {
+        margin: 50px;
+        list-style-type: none;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-left: 5px solid brown;
+        background-color: #f1f1f1;
+        list-style-type: none;
+        padding: 10px 20px;
+    }
+
+    ol li {
+        padding: 32px 64px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    ol li:last-child {
+        border-bottom: none
+    }
+
+    #clear-cart {
+        margin:0 auto;
+        margin-bottom: 40px;
+        position: relative;
+        margin-left: 45%;
+        font-size: 15px;
+        background: #404040;
+        color: #ffffff;
+        border: none;
+        padding: 10px;
+        text-align: center;
+
+    }
+
+    .delete-item{
+    border-radius: 20px;
+    margin-left: 20px;
     font-size: 15px;
-    padding: 5px;
-}
-.productDetail button {
-    float: left;
-}
-
-
-.table table { 
-    border-spacing: 20px;
-    border-collapse: separate;
-    font-size: 20px;
-    float: left;
-}
-
-.table th {
-    text-align: right;
     font-weight: normal;
-    font-size: 18px;
-    color: grey;
-}
-
-.table td {
-    text-align: left;
-    font-size: 18px;
-}
-
-#saveToWishList {
-    font-size: 15px;
-    background: #404040;
-    color: #ffffff;
-    border: none;
-    padding: 10px;
-}
-
-#addtocart {
-    font-size: 15px;
-    background: #ffaacc;
-    color: #ffffff;
-    border: none;
-    padding: 10px;
-}
-
-#similar {
-    font-size: 20px;
-    font-weight: normal;
-    display: inline-block;
-}
-
-
-/*********** ABOUT US ************/
-
-.about {
-    margin-top: 60px;
-    margin-left: 60px;
-    font-weight: lighter;
-}
-
-.about img{
-    float: left;
-    padding-right: 20px;
-}
-
-.about p {
-    width: 1000px;
-    text-align: justify;
-}
-
-
-/*********** CONTACT US ************/
-
-.contact{
-
-    color: #767474;
-    text-align: center;
-    margin-left: 30%;
-}
-.contact div{
-    padding-top: 100px;
-    margin-top: 40px;
-    font-weight: normal;
-    font-size: 30px;
-    text-align: center;
-    width: 50%;
-}
-.contact p{
-    margin-top: 20px;
-    font-weight: lighter;
-    font-size: 20px; 
-    line-height: 30PX; 
-    width: 50%;  
-}
-/*********** CART ************/
-ol {
-    margin: 50px;
-    list-style-type: none;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-left: 5px solid brown;
-    background-color: #f1f1f1;
-    list-style-type: none;
-    padding: 10px 20px;
-}
-
-ol li {
-    padding: 32px 64px;
-    border-bottom: 1px solid #ddd;
-}
-
-ol li:last-child {
-    border-bottom: none
-}
-
-#clear-cart {
-    margin:0 auto;
-    margin-bottom: 40px;
-    position: relative;
-    margin-left: 45%;
-    font-size: 15px;
-    background: #404040;
-    color: #ffffff;
-    border: none;
-    padding: 10px;
-    text-align: center;
-
-}
-
-.delete-item{
-border-radius: 20px;
-margin-left: 20px;
-font-size: 15px;
-font-weight: normal;
-color: brown;
-}
+    color: brown;
+    }
 
 
 
